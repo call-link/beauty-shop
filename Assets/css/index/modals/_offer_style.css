@@ -1,0 +1,55 @@
+
+/* offer section start */
+
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(30rem , 1fr));
+    gap: 1.5rem;
+}
+
+.menu .box-container .box{
+    padding: 5rem 0;
+    text-align: center;
+    border: var(--bac-border);
+    border-radius: 12px;
+} 
+
+.menu .box-container .box img{
+    height: 17rem;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.menu .box-container .box h3{
+    color: var(--text_color04);
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.menu .box-container .box .price{
+    color: var(--text_color05);
+    font-size: 2.5rem;
+    padding: .5rem 0;
+}
+
+.menu .box-container .box .price span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+
+.menu .box-container .box:hover{
+    background: var(--bac-black);
+    box-shadow: var(--shadow_10);
+}
+
+.menu .box-container .box:hover .price , h3{
+    color: var(--text_color04)!important;
+}
+
+.menu .box-container .box:hover img{
+    transform: scale(1.05);
+}
+
+/* menu section end */
+

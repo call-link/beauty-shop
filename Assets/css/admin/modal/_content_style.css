@@ -1,0 +1,13 @@
+/* content section start */
+#content{
+    position: relative;
+    width: calc(100% - 280px);
+    left: 280px;
+    transition: all 1s ease;
+}
+
+#sidebar.hide ~ #content{
+    width: calc(100% - 60px);
+    left: 59px;
+} 
+/* content section end */

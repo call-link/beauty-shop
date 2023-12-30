@@ -1,0 +1,52 @@
+
+/* home sec start */
+
+section{
+    padding: 2rem 7%;
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: all 1s ease;
+}
+
+.bac-home{
+    background-image: url(../../../img/bac_7.jpg);
+    filter: blur(1px) brightness(0.5);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    transition: all .8s ease;
+
+}
+
+.home .content{
+    max-width: 60rem;
+    z-index: 2;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #efefef;
+}
+
+.home .content p{
+    font-size: 2rem;
+    font-weight: 300;
+    color: #efefef;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+/* home sec end */

@@ -1,0 +1,212 @@
+/* main section start */
+
+#content main{
+    width: 100%;
+    padding: 36px 24px;
+    font-family: var(--poppins);
+    max-height: calc(100vh - 56px);
+    overflow-y: auto;
+}
+
+#content main .head-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 16px;
+    flex-wrap: wrap;
+}
+
+#content main .head-title .left h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--dark);
+}
+
+#content main .head-title .left .breadcrumb{
+    display: flex;
+    align-items: center;
+    grid-gap: 16px;
+}
+
+#content main .head-title .left .breadcrumb li{
+    color: var(--dark);
+}
+
+#content main .head-title .left .breadcrumb li a{
+    color: var(--dark-gray);
+    pointer-events: none;
+}
+
+#content main .head-title .left .breadcrumb li a.active{
+    color: var(--bac-blue);
+    pointer-events: unset
+}
+
+#content main .head-title .btn-download{
+    height: 36px;
+    padding: 0 16px;
+    border-radius: 36px;
+    background: var(--bac-blue);
+    color: var(--bac-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+    font-weight: 500;
+}
+
+#content main .box-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(240px , 1fr));
+    gap: 24px;
+    margin-top: 36px;
+}
+
+#content main .box-info li{
+    padding: 24px;
+    background: var(--bac-light);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+#content main .box-info li h3 , p{
+    color: var(--text_color02);
+}
+
+#content main .box-info li .bx{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background: var(--bac-gray);
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content main .box-info li:nth-child(1) .bx{
+    background: var(--bac-blue);
+    color: var(--light-blue);
+}
+
+#content main .box-info li:nth-child(2) .bx{
+    background: var(--yellow);
+    color: var(--light-yellow);
+}
+
+#content main .box-info li:nth-child(3) .bx{
+    background: var(--orange);
+    color: var(--lighte-orange);
+}
+
+#content main .box-info li .text h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#content main .table-data{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 24px;
+    margin-top: 24px;
+    width: 100%;
+    color: var(--dark);
+}
+
+#content main .table-data > div{
+    border-radius: 20px;
+    background: var(--bac-light);
+    padding: 24px;
+    overflow-x: auto;
+}
+
+#content main .table-data .head{
+    display: flex;
+    align-items: center;
+    grid-gap: 16px;
+    margin-bottom: 24px;
+}
+
+#content main .table-data .head .bx{
+    cursor: pointer;
+}
+
+#content main .table-data .head h3{
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#content main .table-data .order table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#content main .table-data .order table th{
+    padding-bottom: 12px;
+    font-size: 13px;
+    text-align: left;
+    border-bottom: 1px solid var(--bac-gray);
+}
+
+#content main .table-data .order table td{
+    padding: 16px 0;
+} 
+
+#content main .table-data .order table tr td:first-child{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-left: 6px;
+}
+
+#content main .table-data .order table tr td .status{
+    font-size: 10px;
+    padding: 6px 16px;
+    color: var(--bac-light);
+    border-radius: 30px;
+}
+
+#content main .table-data .order table tr td .status.completed{
+    background: var(--bac-blue);
+    color: var(--text_color02);
+}
+
+#content main .table-data .order table tr td .status.process{
+    background: var(--yellow);
+    color: var(--text_color02);
+}
+
+#content main .table-data .order table tr td .status.pending{
+    background: var(--orange);
+    color: var(--text_color02);
+}
+
+#content main .table-data .order table td img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#content main .table-data .order table tbody tr{
+    border-radius: 12px!important;
+    padding: 5px 6px;
+    margin-top: 20px;
+}
+
+#content main .table-data .order table tbody tr:hover{
+    background: var(--bac-gray);
+}
+
+#content main .table-data .order{
+    flex-grow: 1;
+    flex-basis: 500px;
+}
+
+
+
+/* main section end */
