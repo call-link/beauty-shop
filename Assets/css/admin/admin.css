@@ -5,6 +5,10 @@
 @import url('modal/_navbar_style.css');
 @import url('modal/_main_style.css');
 @import url('modal/_media_queries.css');
+@import url('modal/_add_profile&image.css');
+@import url('modal/_add_product.css');
+
+
 
 
 :root{
@@ -40,6 +44,7 @@
     --light-yellow: #fff2c6;
     --orange: #fd7238;
     --lighte-orange: #ffe0d3;
+    --blue-hover: #014b5a;
 
 
     /* text color */
@@ -49,6 +54,7 @@
     --text_color04: #aaadb1;
     --text_color05: #6c757d;
     --text_color06: #495057;
+    --text_color07: #717171;
 
     /* shadows */
     --shadow_00: 0px 0px 12px 20px #2a9d8f, 0px 0px 7px 5px #ffffff36 ;
@@ -56,6 +62,8 @@
     --shadow_02: 0px 0px 0px 2px #0d27500d, 0px 0px 3px 2px #ffffff0a;
     --shadow_03: 0px 0px 5px 1px #006073c1;
     --shadow_04: 0px 0px 5px 1px #2a9d90c5;
+    --shadow_04_animat_1: 0px 0px 10px 1px #2a9d90c5;
+    --shadow_04_animat_2: 0px 0px 3px 1px #2a9d90c5;
     --shadow_05: 0px 0px 5px 1px #ae1f12b8;
     --shadow_06: 0px 0px 5px 1px #831345d2;
     --shadow_07: 0px 0px 5px 1px #e76f51cd;
@@ -104,3 +112,79 @@ body{
     overflow-x: hidden;
 }
 
+
+/* add product start */
+
+.pro{
+    width: 32%!important;
+}
+
+.pro .Products_custom{
+    height: 200px!important;
+}
+
+.form_inp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background: var(--bac-gray);
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px 15px;
+    border-radius: 7px;
+}
+
+.form_inp label{
+    width: 130%;
+    text-align: center;
+}
+
+.form_inp input{
+    margin-left: 10px;
+    width: 50%;
+    color: var(--text_color01);
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: #404040;
+}
+
+.form_inp input:focus{
+    box-shadow: var(--shadow_03);
+}
+
+.form_inp input:user-valid{
+    box-shadow: var(--shadow_04);
+}
+
+.form_inp #offer{
+    margin-top: 15px;
+}
+
+.form_inp #price{
+    margin-top: 15px;
+}
+
+.form_inp #title{
+    margin-left: 15px;
+}
+
+.pro .send{
+    background: var(--background_color12)!important;
+    margin-left: 20px;
+    padding: 15px 20px;
+    border-radius: 7px;
+    font-size: 16px;
+    letter-spacing: .8px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    background: var(--background_color05);
+    color: var(--dark);
+    cursor: pointer;
+}
+
+.pro .send:hover{
+    background: var(--background_color13)!important;
+}
+
+/* add product end */

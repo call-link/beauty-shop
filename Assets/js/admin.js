@@ -48,3 +48,29 @@ if(window.innerWidth < 768){
     searchButtonIcon.classList.replace('bx-x' , 'bx-search');  
     searchForm.classList.remove('show');
 }
+
+// uploader js start
+
+const selectImg = document.querySelector('.up-btn');
+const inpFile = document.querySelector('.inp-photo');
+const imgArea = document.querySelector('.upload_area');
+
+selectImg.addEventListener('click' , function(){
+    inpFile.click();
+})
+
+inpFile.addEventListener('change' , function(){
+    const image = this.files[0]
+    console.log(image);
+    const render = new FileReader();
+    render.onload = () =>{
+        const imgURL = render.result;
+        const img = document.createElement('img');
+        img.src = imgURL;
+        imgArea.appendChild(img);
+        imgArea.classList.add(active);
+    }
+    render.readAsDataURL(image);
+})
+
+// uploader js end

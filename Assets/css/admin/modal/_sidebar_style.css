@@ -36,7 +36,16 @@
     background: var(--bac-light);
     z-index: 500;
     padding-bottom: 20px;
+    margin: 10px 5px;
     box-sizing: content-box;
+    text-wrap: nowrap;
+}
+
+#sidebar .brand img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
 #sidebar .brand .bx{
