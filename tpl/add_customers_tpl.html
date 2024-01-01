@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADD IMAGE</title>
+    <title>ADD CUSTOMERS</title>
 
     <!-- style link -->
     <link rel="stylesheet" href="../Assets/css/admin/admin.css">
@@ -134,20 +134,31 @@
     <!-- title section start -->
 
     <section class="title">
-        <span class="text">ADD YOUR IMAGE</span>
+        <span class="text">ADD CUSTOMER</span>
     </section>
     
     <!-- title section end -->
 
     <!-- uploader section start -->
     <form action="#">
-        <section id="uploader">
-            <div class="upload_area">
+        <section id="uploader" class="pro">
+            <div class="upload_area Products_custom">
                 <input type="file" name="" id="photo" class=" inp-photo">
                 <i class="bx bxs-cloud-upload"></i>
                 <h3>Upload Image Or Click here</h3>
             </div>
+            <div class="form_inp">
+                <label for="title">Name :
+                    <input type="text"  class="input" id="title"> 
+                </label>
+                <label for="price">Caption :
+                    <textarea name="" id="price" class="input" cols="30" rows="10"></textarea> 
+                </label>
+            </div>
+            <div class="btns">
             <button type="submit" value="Upload" class="up-btn">Upload</button>
+            <button type="submit" value="Send" class="send">Send</button>
+        </div>
         </section>
         </form>
         <!-- uploader section end -->

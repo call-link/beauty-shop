@@ -1,9 +1,18 @@
 
 
 /* add product start */
-
-.pro{
-    width: 32%!important;
+#uploader_pro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--bac-light);
+    border-radius: 14px;
+    margin: 20px auto;
+    padding: 20px 0;
+    color: var(--dark);
+    font-family: var(--poppins);
+    width: 450px;
 }
 
 .pro .Products_custom{
@@ -16,18 +25,17 @@
     flex-direction: column;
     justify-content: space-around;
     background: var(--bac-gray);
-    width: 100%;
     margin-bottom: 30px;
     padding: 20px 15px;
+    width: 80%;
     border-radius: 7px;
 }
 
 .form_inp label{
-    width: 130%;
     text-align: center;
 }
 
-.form_inp input{
+.form_inp .input{
     margin-left: 10px;
     width: 50%;
     color: var(--text_color01);
@@ -36,11 +44,11 @@
     background: #404040;
 }
 
-.form_inp input:focus{
+.form_inp .input:focus{
     box-shadow: var(--shadow_03);
 }
 
-.form_inp input:user-valid{
+.form_inp .input:user-valid{
     box-shadow: var(--shadow_04);
 }
 
