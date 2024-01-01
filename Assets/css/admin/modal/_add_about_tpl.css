@@ -1,0 +1,57 @@
+
+.inpr_sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px 35px;
+    background: var(--background_color02);
+    width: fit-content;
+    border-radius: 13px;
+    font-family: var(--poppins);
+    text-wrap: nowrap;
+}
+
+.inp{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.inp label{
+    margin-right: 15px;
+    color: var(--text_color03);
+    margin-top: 7px;
+}
+
+.inpr_sec input{
+    background: transparent;
+    padding: 7px 10px;
+    border-radius: 7px;
+    color: var(--text_color03);
+    margin-bottom: 17px;
+    box-shadow: var(--shadow_11);
+    font-family: var(--poppins);
+    font-size: 16px;
+}
+
+.inpr_sec textarea{
+    background: transparent;
+    padding: 7px 10px;
+    border-radius: 7px;
+    color: var(--text_color03);
+    margin-bottom: 17px;
+    box-shadow: var(--shadow_11);
+    font-family: var(--poppins);
+}
+
+.btn_sec button{
+    padding: 7px 15px;
+    background: var(--bac-main_blc);
+    box-shadow: var(--shadow_11);
+    color: var(--text_color03);
+    font-family: var(--poppins);
+    border-radius: 7px;
+    cursor: pointer;
+}

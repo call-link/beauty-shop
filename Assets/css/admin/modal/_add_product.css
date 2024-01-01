@@ -1,0 +1,77 @@
+
+
+/* add product start */
+
+.pro{
+    width: 32%!important;
+}
+
+.pro .Products_custom{
+    height: 200px!important;
+}
+
+.form_inp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background: var(--bac-gray);
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px 15px;
+    border-radius: 7px;
+}
+
+.form_inp label{
+    width: 130%;
+    text-align: center;
+}
+
+.form_inp input{
+    margin-left: 10px;
+    width: 50%;
+    color: var(--text_color01);
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: #404040;
+}
+
+.form_inp input:focus{
+    box-shadow: var(--shadow_03);
+}
+
+.form_inp input:user-valid{
+    box-shadow: var(--shadow_04);
+}
+
+.form_inp #offer{
+    margin-top: 15px;
+}
+
+.form_inp #price{
+    margin-top: 15px;
+}
+
+.form_inp #title{
+    margin-left: 15px;
+}
+
+.pro .send{
+    background: var(--background_color12)!important;
+    margin-left: 20px;
+    padding: 15px 20px;
+    border-radius: 7px;
+    font-size: 16px;
+    letter-spacing: .8px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    background: var(--background_color05);
+    color: var(--dark);
+    cursor: pointer;
+}
+
+.pro .send:hover{
+    background: var(--background_color13)!important;
+}
+
+/* add product end */
