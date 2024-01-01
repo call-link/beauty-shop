@@ -27,6 +27,7 @@
     font-family: var(--poppins);
 }
 
+
 #uploader .upload_area{
     display: flex;
     align-items: center;

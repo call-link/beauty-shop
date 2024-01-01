@@ -27,6 +27,7 @@
     font-size: 24px;
     font-weight: 700;
     height: 56px;
+    line-height: 56px;
     display: flex;
     align-items: center;
     color: var(--bac-blue);
@@ -35,17 +36,14 @@
     left: 0;
     background: var(--bac-light);
     z-index: 500;
-    padding-bottom: 20px;
-    margin: 10px 5px;
+    margin-top: 20px;
     box-sizing: content-box;
     text-wrap: nowrap;
 }
 
-#sidebar .brand img{
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    margin-right: 20px;
+#sidebar .brand i{
+    margin-right: 5px;
+    font-size: 2.5rem;
 }
 
 #sidebar .brand .bx{
